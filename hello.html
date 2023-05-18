@@ -1,0 +1,59 @@
+<head>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<html>
+  <body>
+    <div class="container_main">
+      <div class="container_issue">
+        <div class="container_issue_front">
+          <span>Numero issue Front</span>
+
+          <div class="container_btn">
+            <input
+              type="text"
+              id="input_issue_front"
+              class="input_issue"
+              placeholder="XXXX"
+            />
+            <button id="btn_go_front" class="btn_go">Go</button>
+          </div>
+        </div>
+        <div class="container_issue_back">
+          <span>Numero issue Back</span>
+          <div class="container_btn">
+            <input
+              type="text"
+              id="input_issue_back"
+              class="input_issue"
+              placeholder="XXXX"
+            />
+            <button id="btn_go_back" class="btn_go">Go</button>
+          </div>
+        </div>
+      </div>
+      <div class="container_main_link_project">
+        <span class="title_link_project">Lien</span>
+        <div class="container_link_front">
+          <span>Lien Front End</span>
+          <input
+            type="text"
+            id="input_link_front"
+            class="input_link"
+            placeholder="#XXXX"
+          />
+        </div>
+        <div class="container_link_back">
+          <span>Lien Back End</span>
+          <input
+            type="text"
+            id="input_link_back"
+            class="input_link"
+            placeholder="#XXXX"
+          />
+          <span id="display_link_back"></span>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
